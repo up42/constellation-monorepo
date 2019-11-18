@@ -5,6 +5,9 @@
   "author": "Bernardo Corbella <bernardo.corbella@up42.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "release": "cross-env HUSKY_BYPASS=true lerna publish"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",

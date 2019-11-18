@@ -1,0 +1,55 @@
+{
+  "props": [
+    { "name": "marketing_space_main", "value": "{!scale_24}" },
+    { "name": "marketing_space_section", "value": "{!scale_120}" },
+    { "name": "marketing_space_header", "value": "{!scale_80}" },
+    { "name": "marketing_space_article", "value": "{!scale_64}" },
+    { "name": "marketing_space_paragraph", "value": "{!scale_24}" },
+    { "name": "marketing_space_line", "value": "{!scale_16}" },
+
+    { "name": "product_desktop_space_main", "value": "{!scale_24}" },
+    { "name": "product_desktop_space_section", "value": "{!scale_32}" },
+    { "name": "product_desktop_space_header", "value": "{!scale_24}" },
+    { "name": "product_desktop_space_article", "value": "{!scale_24}" },
+    { "name": "product_desktop_space_paragraph", "value": "{!scale_16}" },
+    { "name": "product_desktop_space_line", "value": "{!scale_8}" },
+
+    { "name": "product_mobile_space_main", "value": "{!scale_16}" },
+    { "name": "product_mobile_space_section", "value": "{!scale_64}" },
+    { "name": "product_mobile_space_header", "value": "{!scale_40}" },
+    { "name": "product_mobile_space_article", "value": "{!scale_24}" },
+    { "name": "product_mobile_space_paragraph", "value": "{!scale_24}" },
+    { "name": "product_mobile_space_line", "value": "{!scale_16}" },
+
+    { "name": "space_scale_1", "value": "{!scale_1}" },
+    { "name": "space_scale_2", "value": "{!scale_2}" },
+    { "name": "space_scale_4", "value": "{!scale_4}" },
+    { "name": "space_scale_6", "value": "{!scale_6}" },
+    { "name": "space_scale_8", "value": "{!scale_8}" },
+    { "name": "space_scale_16", "value": "{!scale_16}" },
+    { "name": "space_scale_24", "value": "{!scale_24}" },
+    { "name": "space_scale_32", "value": "{!scale_32}" },
+    { "name": "space_scale_40", "value": "{!scale_40}" },
+    { "name": "space_scale_64", "value": "{!scale_64}" },
+    { "name": "space_scale_80", "value": "{!scale_80}" },
+    { "name": "space_scale_120", "value": "{!scale_120}" }
+  ],
+  "aliases": {
+    "scale_1": "1px",
+    "scale_2": "2px",
+    "scale_4": "4px",
+    "scale_6": "6px",
+    "scale_8": "8px",
+    "scale_16": "16px",
+    "scale_24": "24px",
+    "scale_32": "32px",
+    "scale_40": "40px",
+    "scale_64": "64px",
+    "scale_80": "80px",
+    "scale_120": "120px"
+  },
+  "global": {
+    "type": "number",
+    "category": "space"
+  }
+}
