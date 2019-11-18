@@ -1,0 +1,9 @@
+# Logs
+*.log
+
+# WebStorm
+.idea
+
+# Node
+node_modules
+
