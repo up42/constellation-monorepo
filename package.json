@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "release": "cross-env HUSKY_BYPASS=true lerna publish"
+    "postinstall": "lerna run --scope @up42/constellation-tokens build"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
