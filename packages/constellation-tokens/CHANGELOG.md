@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/up42/constellation-monorepo/compare/@up42/constellation-tokens@0.2.1...@up42/constellation-tokens@0.2.2) (2019-11-20)
+
+
+### Bug Fixes
+
+* **constellation-tokens:** makes package public ([000d586](https://github.com/up42/constellation-monorepo/commit/000d5869294b0c002e0a905c49f52678c0c4fb25))
+
+
+
+
+
 ## [0.2.1](https://github.com/up42/constellation-monorepo/compare/@up42/constellation-tokens@0.2.0...@up42/constellation-tokens@0.2.1) (2019-11-20)
 
 **Note:** Version bump only for package @up42/constellation-tokens
