@@ -2,8 +2,8 @@ name: Release version
 
 on:
   push:
-    branches:
-      - master
+    tags-ignore:
+      - '**-alpha*'
 
 jobs:
   publish-gpr:

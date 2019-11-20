@@ -5,9 +5,10 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "yes": true,
-      "message": "chore: release",
-      "registry": "https://npm.pkg.github.com"
+      "message": "chore: release"
+    },
+    "version": {
+      "allowBranch": ["develop", "master"]
     }
   },
   "packages": ["packages/*"]
