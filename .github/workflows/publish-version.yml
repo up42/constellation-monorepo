@@ -18,10 +18,10 @@ jobs:
             ${{ runner.OS }}-build-
             ${{ runner.OS }}-
       - uses: actions/setup-node@v1
-          with:
-            node-version: 12
-            registry-url: 'https://npm.pkg.github.com'
-            scope: '@up42'
+        with:
+          node-version: 12
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@up42'
       - run: yarn install
       - run: yarn run publish:release
         env:
