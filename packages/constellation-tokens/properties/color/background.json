@@ -1,0 +1,9 @@
+{
+  "color": {
+    "background": {
+      "light": { "value": "{color.base.gray10.value}" },
+      "dark": { "value": "{color.base.gray20.value}" },
+      "indigo": { "value": "{color.base.indigo90.value }" }
+    }
+  }
+}

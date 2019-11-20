@@ -1,5 +1,4 @@
 {
-  "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
@@ -7,7 +6,9 @@
     "publish": {
       "conventionalCommits": true,
       "yes": true,
-      "message": "chore: release"
+      "message": "chore: release",
+      "registry": "https://npm.pkg.github.com"
     }
-  }
+  },
+  "packages": ["packages/*"]
 }

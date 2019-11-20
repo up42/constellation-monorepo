@@ -1,0 +1,24 @@
+{
+  "size": {
+    "font": {
+      "base": { "value": "16px" },
+      "minorThird10": { "value": "6.192rem" },
+      "minorThird9": { "value": "5.16rem" },
+      "minorThird8": { "value": "4.3rem" },
+      "minorThird7": { "value": "3.583rem" },
+      "minorThird6": { "value": "2.986rem" },
+      "minorThird5": { "value": "2.488rem" },
+      "minorThird4": { "value": "2.074rem" },
+      "minorThird3": { "value": "1.728rem" },
+      "minorThird2": { "value": "1.44rem" },
+      "minorThird1": { "value": "1.2rem" },
+      "minorThird0": { "value": "{size.font.base.value}" },
+      "minorThirdSub1": { "value": "0.833rem" },
+      "minorThirdSub2": { "value": "0.694rem" },
+      "minorThirdSub3": { "value": "0.579rem" },
+      "minorThirdSub4": { "value": "0.482rem" },
+      "minorThirdSub5": { "value": "0.402rem" },
+      "minorThirdSub6": { "value": "0.335rem" }
+    }
+  }
+}
