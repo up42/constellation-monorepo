@@ -1,0 +1,10 @@
+{
+  "font": {
+    "lineHeight": {
+      "medium": { "value": "1rem" },
+      "large": { "value": "1.5rem" },
+      "xlarge": { "value": "2rem" },
+      "xxlarge": { "value": "3rem" }
+    }
+  }
+}

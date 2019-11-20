@@ -1,0 +1,44 @@
+{
+  "size": {
+    "font": {
+      "base": { "value": "16px" },
+      "heading": {
+        "default": { "value": "{size.font.minorThird3.value}" },
+        "small": { "value": "{size.font.minorThird2.value}" },
+        "xsmall": { "value": "{size.font.minorThird0.value}" }
+      },
+      "overline": {
+        "large": { "value": "{size.font.minorThird2.value}" },
+        "default": { "value": "{size.font.minorThirdSub1.value}" }
+      },
+      "body": {
+        "default": { "value": "{size.font.minorThird0.value}" }
+      },
+      "caption": {
+        "default": { "value": "{size.font.minorThirdSub1.value}" },
+        "large": { "value": "{size.font.minorThird2.value}" }
+      },
+      "label": {
+        "default": { "value": "{size.font.minorThirdSub1.value}" },
+        "large": { "value": "{size.font.minorThird2.value}" }
+      },
+      "minorThird10": { "value": "6.192rem", "description": "99.067px" },
+      "minorThird9": { "value": "5.16rem", "description": "82.556px" },
+      "minorThird8": { "value": "4.3rem", "description": "68.797px" },
+      "minorThird7": { "value": "3.583rem", "description": "57.331px" },
+      "minorThird6": { "value": "2.986rem", "description": "47.776px" },
+      "minorThird5": { "value": "2.488rem", "description": "39.813px" },
+      "minorThird4": { "value": "2.074rem", "description": "33.178px" },
+      "minorThird3": { "value": "1.728rem", "description": "27.648px" },
+      "minorThird2": { "value": "1.44rem", "description": "23.04px" },
+      "minorThird1": { "value": "1.2rem", "description": "19.2px" },
+      "minorThird0": { "value": "{size.font.base.value}", "description": "16px" },
+      "minorThirdSub1": { "value": "0.833rem", "description": "13.333px" },
+      "minorThirdSub2": { "value": "0.694rem", "description": "11.111px" },
+      "minorThirdSub3": { "value": "0.579rem", "description": "9.259px" },
+      "minorThirdSub4": { "value": "0.482rem", "description": "7.716px" },
+      "minorThirdSub5": { "value": "0.402rem", "description": "6.43px" },
+      "minorThirdSub6": { "value": "0.335rem", "description": "5.358px" }
+    }
+  }
+}

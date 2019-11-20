@@ -1,0 +1,9 @@
+{
+  "animation": {
+    "speed": {
+      "normal": { "value": "0.5s" },
+      "fast": { "value": "0.08s" },
+      "slow": { "value": "1s" }
+    }
+  }
+}

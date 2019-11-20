@@ -1,0 +1,11 @@
+{
+  "size": {
+    "border": {
+      "radius": {
+        "default": { "value": "{size.spacing.scale6.value}" },
+        "small": { "value": "{size.spacing.scale4.value}" }
+      },
+      "width": { "value": "{size.spacing.scale1.value}" }
+    }
+  }
+}

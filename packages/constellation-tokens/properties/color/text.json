@@ -1,0 +1,13 @@
+{
+  "color": {
+    "text": {
+      "base": { "value": "{color.base.gray100.value}" },
+      "light": { "value": "{color.base.gray50.value}" },
+      "inverted": { "value": "{color.base.gray0.value}" },
+      "link": {
+        "default": { "value": "{color.base.cyan50.value}" },
+        "visited": { "value": "{color.base.cyan60.value}" }
+      }
+    }
+  }
+}

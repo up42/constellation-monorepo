@@ -1,0 +1,10 @@
+{
+  "color": {
+    "brand": {
+      "darkMatter": { "value": "{color.base.indigo90.value}" },
+      "titanPink": { "value": "{color.base.pink60.value}" },
+      "planetBlue": { "value": "{color.base.cyan40.value}" },
+      "greenEarth": { "value": "{color.base.green30.value}" }
+    }
+  }
+}

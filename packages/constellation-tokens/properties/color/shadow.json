@@ -1,0 +1,7 @@
+{
+  "color": {
+    "shadow": {
+      "default": { "value": "{color.base.gray100.value}" }
+    }
+  }
+}

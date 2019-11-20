@@ -1,0 +1,7 @@
+{
+  "color": {
+    "border": {
+      "default": { "value": "{color.base.gray20.value} " }
+    }
+  }
+}

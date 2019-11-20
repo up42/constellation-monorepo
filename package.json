@@ -6,7 +6,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "postinstall": "lerna run --scope @up42/constellation-tokens build"
+    "postinstall": "lerna run --scope @up42/constellation-tokens build",
+    "test": "echo no tests yet",
+    "publish:next": "lerna publish --canary",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",

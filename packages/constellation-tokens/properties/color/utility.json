@@ -1,0 +1,10 @@
+{
+  "color": {
+    "utility": {
+      "active": { "value": "{color.base.cyan50.value}" },
+      "danger": { "value": "{color.base.red50.value}" },
+      "info": { "value": "{color.brand.darkMatter.value}" },
+      "success": { "value": "{color.brand.greenEarth.value}" }
+    }
+  }
+}
