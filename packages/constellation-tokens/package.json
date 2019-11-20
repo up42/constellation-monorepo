@@ -1,8 +1,22 @@
 {
   "name": "@up42/constellation-tokens",
+  "author": {
+    "name": "Bernardo Corbella",
+    "email": "bernardo.corbella@up42.com",
+    "url": "https://up42.com"
+  },
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
+  "files": [
+    "dist/",
+    "properties/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/up42/constellation-monorepo.git",
+    "directory": "packages/constellation-tokens"
+  },
   "scripts": {
     "watch": "chokidar properties/**/*.json -c \"yarn build\"",
     "build": "style-dictionary clean && style-dictionary build"
