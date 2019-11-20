@@ -1,9 +1,8 @@
-# Frontend Monorepo
+# UP42 Constellation
 
 ### Overview
 
-This is a monorepo architecture for our Frontend products. The idea behind this
-repository is to enhance the experience when working with different packages and cross dependencies.
+Constellation: UP42 Design System
 
 ### Using the repository
 
