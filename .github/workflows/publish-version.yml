@@ -1,4 +1,4 @@
-name: Release version
+name: Publish Version
 
 on:
   push:
@@ -6,15 +6,10 @@ on:
       - '**-alpha*'
 
 jobs:
-  publish-gpr:
+  publish-version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/
-          scope: '@up42'
       - uses: actions/cache@v1
         with:
           path: node_modules
@@ -22,8 +17,12 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-build-
             ${{ runner.OS }}-
+      - uses: actions/setup-node@v1
+          with:
+            node-version: 12
+            registry-url: 'https://npm.pkg.github.com'
+            scope: '@up42'
       - run: yarn install
       - run: yarn run publish:release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
