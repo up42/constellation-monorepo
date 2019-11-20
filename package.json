@@ -8,7 +8,7 @@
   "scripts": {
     "postinstall": "lerna run --scope @up42/constellation-tokens build",
     "test": "echo no tests yet",
-    "publish:next": "lerna publish --canary --preid next"
+    "publish:next": "lerna publish --canary"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
