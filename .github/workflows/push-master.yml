@@ -1,9 +1,9 @@
-name: Release canary version
+name: Release version
 
 on:
   push:
     branches:
-      - develop
+      - master
 
 jobs:
   publish-gpr:
@@ -23,7 +23,7 @@ jobs:
             ${{ runner.OS }}-build-
             ${{ runner.OS }}-
       - run: yarn install
-      - run: yarn publish:next
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
