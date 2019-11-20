@@ -1,9 +1,9 @@
-name: Publish Version
+name: Push Master
 
 on:
   push:
-    tags-ignore:
-      - '**-alpha*'
+    branches:
+      - master
 
 jobs:
   publish-version:
@@ -26,3 +26,11 @@ jobs:
       - run: yarn run publish:release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@up42'
+      - run: yarn run publish:release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
