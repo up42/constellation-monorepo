@@ -1,4 +1,4 @@
-name: Install, test and cache modules
+name: Build branch
 
 on:
   push:
