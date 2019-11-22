@@ -3,7 +3,7 @@ name: Build branch
 on:
   push:
     branches-ignore:
-      - develop
+      - next
       - master
 
 jobs:
