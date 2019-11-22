@@ -1,6 +1,16 @@
 {
   "source": ["properties/**/*.json"],
   "platforms": {
+    "json": {
+      "transforms": ["name/cti/camel"],
+      "buildPath": "dist/json/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json/nested"
+        }
+      ]
+    },
     "scss": {
       "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "color/css"],
       "buildPath": "dist/scss/",
@@ -11,13 +21,13 @@
         }
       ]
     },
-    "json": {
-      "transforms": ["name/cti/camel"],
-      "buildPath": "dist/json/",
+    "css": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "color/css"],
+      "buildPath": "dist/css/",
       "files": [
         {
-          "destination": "tokens.json",
-          "format": "json/nested"
+          "destination": "tokens.css",
+          "format": "css/variables"
         }
       ]
     }
