@@ -16,6 +16,8 @@ Or in `scss`
 @import '@up42/constellation-tokens/dist/scss/tokens';
 ```
 
+Also `css` variables available at `dist/css/tokens.css`
+
 ### Tokens (properties)
 
 Tokens live under `properties/` and are organized using [CTI structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item).

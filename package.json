@@ -6,9 +6,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "dev": "yarn run postinstall && lerna run watch",
+    "cz": "git-cz",
     "postinstall": "lerna run --scope @up42/constellation-tokens build",
     "test": "echo no tests yet",
-    "version:release": "lerna version --conventional-graduate",
+    "version:release": "lerna version --conventional-graduate --no-push",
+    "version:next": "lerna version --conventional-prerelease --no-push --preid next",
     "publish:gpr": "lerna publish from-git --yes --registry https://npm.pkg.github.com",
     "publish:npm": "lerna publish from-git --yes --registry https://registry.npmjs.org"
   },
@@ -16,6 +19,7 @@
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@commitlint/config-lerna-scopes": "^8.2.0",
+    "cz-conventional-changelog": "^3.0.2",
     "husky": "^3.1.0",
     "lerna": "^3.15.0",
     "prettier": "^1.19.1"
@@ -27,5 +31,13 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "commitizen": "^4.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

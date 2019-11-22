@@ -1,9 +1,9 @@
-name: Install, test and cache modules
+name: Build branch
 
 on:
   push:
     branches-ignore:
-      - develop
+      - next
       - master
 
 jobs:
