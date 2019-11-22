@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "dev": "yarn run postinstall && lerna run watch",
     "cz": "git-cz",
     "postinstall": "lerna run --scope @up42/constellation-tokens build",
     "test": "echo no tests yet",
