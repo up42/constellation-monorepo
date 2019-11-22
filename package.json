@@ -10,7 +10,7 @@
     "cz": "git-cz",
     "postinstall": "lerna run --scope @up42/constellation-tokens build",
     "test": "echo no tests yet",
-    "version": "lerna version --conventional-graduate --no-push",
+    "version:release": "lerna version --conventional-graduate --no-push",
     "version:next": "lerna version --conventional-prerelease --no-push --preid next",
     "publish:gpr": "lerna publish from-git --yes --registry https://npm.pkg.github.com",
     "publish:npm": "lerna publish from-git --yes --registry https://registry.npmjs.org"
