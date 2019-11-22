@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0-next.0](https://github.com/up42/constellation-monorepo/compare/@up42/constellation-tokens@0.2.2...@up42/constellation-tokens@0.3.0-next.0) (2019-11-22)
+
+
+### Features
+
+* **constellation-tokens:** now produces output in css/variables format ([2aebd55](https://github.com/up42/constellation-monorepo/commit/2aebd555a45c8c0079e908d2a63ca943ad4bffba))
+
+
+
+
+
 ## [0.2.2](https://github.com/up42/constellation-monorepo/compare/@up42/constellation-tokens@0.2.1...@up42/constellation-tokens@0.2.2) (2019-11-20)
 
 
