@@ -25,3 +25,5 @@ Tokens live under `properties/` and are organized using [CTI structure](https://
 ### More Information
 
 For more information please refer to style-dictionary [documentation](https://amzn.github.io/style-dictionary/)
+
+Have a nice day.
