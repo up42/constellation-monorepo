@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/up42/constellation-monorepo/compare/@up42/constellation-tokens@0.3.0...@up42/constellation-tokens@0.3.1) (2020-11-25)
+
+
+### Bug Fixes
+
+* **constellation-tokens:** fixes rgb color ([#21](https://github.com/up42/constellation-monorepo/issues/21)) ([430befc](https://github.com/up42/constellation-monorepo/commit/430befc655f337acda3e6b9de38c875d0272915e))
+
+
+
+
+
 # [0.3.0](https://github.com/up42/constellation-monorepo/compare/@up42/constellation-tokens@0.2.2...@up42/constellation-tokens@0.3.0) (2019-11-22)
 
 **Note:** Version bump only for package @up42/constellation-tokens
