@@ -5,7 +5,7 @@
     "email": "bernardo.corbella@up42.com",
     "url": "https://up42.com"
   },
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "index.js",
   "license": "MIT",
   "files": [

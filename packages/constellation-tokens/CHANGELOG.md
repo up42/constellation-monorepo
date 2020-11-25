@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/up42/constellation-monorepo/compare/@up42/constellation-tokens@0.3.1...@up42/constellation-tokens@0.3.2) (2020-11-25)
+
+
+### Bug Fixes
+
+* **constellation-tokens:** bumps version ([31e1c52](https://github.com/up42/constellation-monorepo/commit/31e1c528e23af8257df9538740c372f236f73c84))
+
+
+
+
+
 ## [0.3.1](https://github.com/up42/constellation-monorepo/compare/@up42/constellation-tokens@0.3.0...@up42/constellation-tokens@0.3.1) (2020-11-25)
 
 
